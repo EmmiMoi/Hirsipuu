@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.RadioButton?>
+<?import javafx.scene.control.SplitPane?>
+<?import javafx.scene.control.ToggleGroup?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.shape.Circle?>
+<?import javafx.scene.shape.Rectangle?>
+
+<SplitPane dividerPositions="0.8567839195979899" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" orientation="VERTICAL" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Liikennevalot.ValotViewController">
+  <items>
+    <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="293.0" prefWidth="300.0">
+         <children>
+            <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#1f93ff00" height="240.0" layoutX="240.0" layoutY="24.0" stroke="BLACK" strokeType="INSIDE" width="95.0" />
+            <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#1f93ff00" height="74.0" layoutX="276.0" layoutY="264.0" stroke="BLACK" strokeType="INSIDE" width="24.0" />
+            <Circle fx:id="redLight" fill="#010d19" layoutX="288.0" layoutY="71.0" radius="33.0" stroke="BLACK" strokeType="INSIDE" />
+            <Circle fx:id="YelLight" fill="#010b14" layoutX="288.0" layoutY="144.0" radius="33.0" stroke="BLACK" strokeType="INSIDE" />
+            <Circle fx:id="GreenLight" fill="#000810" layoutX="288.0" layoutY="214.0" radius="33.0" stroke="BLACK" strokeType="INSIDE" />
+         </children></AnchorPane>
+    <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="16.0" prefWidth="400.0">
+         <children>
+            <RadioButton fx:id="radRed" layoutX="34.0" layoutY="15.0" mnemonicParsing="false" onMouseClicked="#radRedClicked" prefHeight="17.0" prefWidth="106.0" text="Punainen">
+               <toggleGroup>
+                  <ToggleGroup fx:id="Color" />
+               </toggleGroup>
+            </RadioButton>
+            <RadioButton fx:id="radYellow" layoutX="218.0" layoutY="15.0" mnemonicParsing="false" onMouseClicked="#radYellowClicked" prefHeight="17.0" prefWidth="118.0" text="Keltainen" toggleGroup="$Color" />
+            <RadioButton fx:id="radGreen" layoutX="423.0" layoutY="15.0" mnemonicParsing="false" onMouseClicked="#radGreenClicked" text="Vihreä" toggleGroup="$Color" />
+         </children></AnchorPane>
+  </items>
+</SplitPane>
