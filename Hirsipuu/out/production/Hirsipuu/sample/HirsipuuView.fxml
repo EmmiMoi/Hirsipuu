@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.shape.Circle?>
+<?import javafx.scene.shape.Line?>
+<?import javafx.scene.shape.QuadCurve?>
+<?import javafx.scene.text.Font?>
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" onKeyPressed="#rightKeyPressed" prefHeight="523.0" prefWidth="477.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.HirsipuuViewController">
+   <children>
+      <Line fx:id="secondWrong" endX="-49.33331298828125" endY="166.66668701171875" layoutX="182.0" layoutY="189.0" startX="-49.33331298828125" startY="-22.333343505859375" />
+      <Line fx:id="thirdWrong" endX="100.0" fill="BLACK" layoutX="173.0" layoutY="166.0" startX="-40.83331298828125" startY="0.166656494140625" />
+      <Line fx:id="fourthWrong" endX="-40.66668701171875" endY="-34.126251220703125" fill="BLACK" layoutX="232.0" layoutY="201.0" startX="-98.83331298828125" startY="21.0" />
+      <Line fx:id="fifthWrong" endX="-41.0" endY="90.0" layoutX="315.0" layoutY="133.0" startX="-41.29290771484375" startY="33.873748779296875" />
+      <Circle fx:id="sixthWrong" fill="#f7f7f700" layoutX="274.0" layoutY="245.0" radius="22.0" stroke="BLACK" strokeType="INSIDE" />
+      <Line fx:id="seventhWrong" endX="18.0" endY="-30.0" layoutX="256.0" layoutY="297.0" startX="18.0" startY="29.66668701171875" />
+      <Line fx:id="eleventhWrong" endX="-19.0" endY="0.16668701171875" layoutX="293.0" layoutY="327.0" startX="-37.0" startY="40.33331298828125" />
+      <Line fx:id="tenthWrong" endX="-33.66668701171875" endY="25.33331298828125" layoutX="325.0" layoutY="340.0" startX="-50.5" startY="-12.83331298828125" />
+      <Line fx:id="eightWrong" endX="100.0" layoutX="175.0" layoutY="280.0" startX="78.66668701171875" startY="34.0" />
+      <Line fx:id="ninthWrong" endX="-2.0" endY="25.66668701171875" layoutX="293.0" layoutY="288.0" startX="-17.29290771484375" startY="-8.70709228515625" />
+      <Label layoutX="50.0" layoutY="52.0" prefHeight="28.0" prefWidth="131.0" text="Arvattava sana:">
+         <font>
+            <Font size="19.0" />
+         </font>
+      </Label>
+      <Label fx:id="letterOne" layoutX="201.0" layoutY="50.0" prefHeight="36.0" prefWidth="23.0">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Label>
+      <Label fx:id="letterTwo" layoutX="227.0" layoutY="50.0" prefHeight="36.0" prefWidth="23.0">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Label>
+      <Label fx:id="letterFive" layoutX="337.0" layoutY="50.0" prefHeight="36.0" prefWidth="23.0">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Label>
+      <Label fx:id="letterThree" layoutX="264.0" layoutY="50.0" prefHeight="36.0" prefWidth="23.0">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Label>
+      <Label fx:id="letterFour" layoutX="300.0" layoutY="50.0" prefHeight="36.0" prefWidth="23.0">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Label>
+      <Line endX="-76.66668701171875" layoutX="292.0" layoutY="86.0" startX="-102.0" />
+      <Line endX="-76.66668701171875" layoutX="328.0" layoutY="86.0" startX="-102.0" />
+      <Line endX="-76.66668701171875" layoutX="438.0" layoutY="86.0" startX="-102.0" />
+      <Line endX="-76.66668701171875" layoutX="401.0" layoutY="86.0" startX="-102.0" />
+      <Line endX="-76.66668701171875" layoutX="363.0" layoutY="86.0" startX="-102.0" />
+      <Label fx:id="loserText" layoutX="39.0" layoutY="105.0" prefHeight="17.0" prefWidth="422.0" text="PELI PÄÄTTYI, HÄVISIT PELIN!">
+         <font>
+            <Font size="32.0" />
+         </font>
+      </Label>
+      <Label fx:id="loserEyes" layoutX="263.0" layoutY="229.0" text="x   x" />
+      <QuadCurve fx:id="firstWrong" controlX="-30.33331298828125" controlY="-108.66668701171875" endX="123.66668701171875" endY="10.0" fill="#1f93ff00" layoutX="153.0" layoutY="406.0" startX="-133.66665649414062" startY="10.0" stroke="BLACK" strokeType="INSIDE" />
+   </children>
+</Pane>
